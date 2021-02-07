@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -32,6 +33,7 @@ h1 {
     font-size: 30px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    
 }
 
 #name {
@@ -96,7 +98,17 @@ p {
     background-color:limegreen;
     
 }
-
+html{
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: deeppink;
+    
+}
 
 
 
